@@ -1,0 +1,25 @@
+description = "Layout Base"
+==
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+{% partial 'layout/meta' %}
+
+{% partial 'layout/includes_top' %}
+
+</head>
+<body>
+
+{% partial 'header' %}
+
+{% page %}
+
+{% partial 'footer' %}
+
+{% partial 'layout/includes_foot' %}
+
+</body>
+</html>

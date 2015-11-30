@@ -1,0 +1,26 @@
+name: Genius
+description: Genius base theme for october CMS
+author: Genius
+homepage: 'http://estudiogenius.com.br'
+
+form:
+  fields:
+
+    site_title:
+      label: Título do site
+      default: Genius Soluções Web
+
+    site_phone:
+      type: richeditor
+      size: tiny
+      label: Telefone principal da Empresa
+      placeholder: (--) ---- ----
+
+    site_email:
+      label: E-mail principal da Empresa
+
+    site_address:
+      type: richeditor
+      size: tiny
+      label: Endereço principal da Empresa
+
