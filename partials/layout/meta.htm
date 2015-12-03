@@ -12,10 +12,10 @@ description = "Meta Tags"
 <meta name="author" content="Genius Soluções Web">
 <meta name="reply-to" content="contato@estudiogenius.com.br">
 
-<link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png'|theme }}" />
+<link rel="icon" type="image/png" href="{{ 'assets/images/favicon.png' | hash | theme }}" />
 
 <meta property="og:type" content="website" />
-<meta property="og:image" content="{{ 'assets/images/logo.png'|theme }}" />
+<meta property="og:image" content="{{ 'assets/images/logo.png' | hash | theme }}" />
 <meta property="og:url" content="{{ '/'|app }}" />
 
 <meta property="og:description" content="{{ this.page.meta_description|_ }}" />
